@@ -34,5 +34,7 @@ def Outliers_Visualization(df):
         style={'description_width': 'initial'}
     )
 
-    # Use interactive to display the boxplot based on the selected column
-    widgets.interactive(create_boxplot, column=column_selector)
+    # Create the interactive widget
+    interactive_widget = widgets.interactive(create_boxplot, column=column_selector)
+    
+    return interactive_widget
