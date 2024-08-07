@@ -15,5 +15,5 @@ Whether you’re building custom models or leveraging pre-trained architectures,
 You can install the package using pip. Run the following command to install `ArinLib`:
 
 ```bash
-pip install ArinLib
+pip install git+https://github.com/ArinGujarati/ArinLib.git
  
