@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ArinLib',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     description='A Simplify and accelerate your machine learning and deep learning projects with ease.',
     long_description=open('README.md').read(),
